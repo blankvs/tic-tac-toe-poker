@@ -1,12 +1,11 @@
-// alert("hi")
+console.log("hello world")
 
-const idInput = document.getElementById('idInput')
-const colorInput = document.getElementById('colorInput')
+const cardInput = document.getElementById('card')
+const colorInput = document.getElementById('color')
 
-function setCard(){
-    let card = document.getElementById(idInput.value)
-    card.style.color = colorInput.value
+function setCard() {
+  const card = document.getElementById(cardInput)
+  card.style.color = colorInput.value
 
-    
 }
 
